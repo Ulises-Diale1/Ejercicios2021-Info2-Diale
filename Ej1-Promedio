@@ -1,1 +1,31 @@
-//prueba.
+#include <stdio.h>
+int main (void){
+    int numeros[100]; int y,k,u=0,z;
+    printf("Al ingresar 0, se deberá introducir la clave.");
+    for(y=0;y<100;y++){
+        printf("\ningrese un valor: ");
+        scanf("%i",&k);
+        if(k==0){
+            break;
+        }
+        else{
+            numeros[y]=k;
+        }
+        u++;
+    }
+    printf("\nClave: ");
+    scanf("%i",&z);
+    do{
+        printf("Clave incorrecta, reinténtelo: ");
+        scanf("%i",&z);
+    }while{
+        z!=9999;
+    }
+    z=0;
+    for(y=0;y<u;y++){
+        z=z+numeros[y];
+    }
+    u=z/y;
+    printf("Promedio: %i",u);
+    return 0;
+}
