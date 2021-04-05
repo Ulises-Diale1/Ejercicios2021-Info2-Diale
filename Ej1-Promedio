@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main (void){
-	int numeros[100]; int y,k,u=0,z;
+	int numeros[100]; int y,k,z; float u=0;
 	printf("Al ingresar 0, se deberá introducir la clave.");
 	for(y=0;y<100;y++){
 		printf("\ningrese un valor: ");
@@ -19,11 +19,11 @@ int main (void){
 		printf("Clave incorrecta, reinténtelo: ");
 		scanf("%i",&z);
 	}while(z!=9999);
-	z=0;
+	k=0;
 	for(y=0;y<u;y++){
-		z=z+numeros[y];
+		k=k+numeros[y];
 	}
-	u=z/y;
-	printf("Promedio: %i",u);
+	u=k/y;
+	printf("Promedio: %.2f",u);
 	return 0;
 }
