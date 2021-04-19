@@ -11,3 +11,10 @@ int main(void) {
 		g[i]=8;
 		printf("\nEl elemento %i del arreglo 'g' es ahora 8.",i);
 	}
+    for(i=0;i<100;i++){
+		c[i]=7.8;
+	}
+	for(i=0;i<100;i++){
+		u=u+c[i];
+	}
+	printf("\nEl resultado de la suma de los elementos del arreglo 'c' es: %f",u);
