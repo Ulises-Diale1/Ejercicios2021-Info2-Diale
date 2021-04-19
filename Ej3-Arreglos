@@ -7,3 +7,7 @@ int main(void) {
     printf("\nIntruduzca un valor: ");
 	scanf("%lf",&b[i]);
 	printf("\nEl valor introducido fue: %lf",b[i]);
+    for(i=0;i<5;i++){
+		g[i]=8;
+		printf("\nEl elemento %i del arreglo 'g' es ahora 8.",i);
+	}
