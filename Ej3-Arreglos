@@ -18,3 +18,9 @@ int main(void) {
 		u=u+c[i];
 	}
 	printf("\nEl resultado de la suma de los elementos del arreglo 'c' es: %f",u);
+    	for(i=0;i<11;i++){
+		b[i]=a[i];
+		printf("\nEl nuevo valor del elemento %i del arreglo 'b' ahora es %lf",i,b[i]);
+	}
+	return 0;
+}
