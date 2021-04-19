@@ -1,1 +1,6 @@
-//prueba.
+#include <stdio.h>
+#include <math.h>
+int main(void) {
+	int f[8]={45,1,2,3,4,5,6,7},g[5]; double a[11]={0.8,7.6,5.8,6.8,3.5,6.2,6.8,4.1,9.0,6.4,2.4},b[34],c[100];
+	int i=4;
+	printf("El séptimo valor del arreglo 'f' es %i",f[7]);
