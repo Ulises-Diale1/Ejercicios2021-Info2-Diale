@@ -1,1 +1,12 @@
-//prueba
+#include <stdio.h>
+
+int main(void) {
+	long int valor1=200000,valor2; 
+	long *ptrL;
+	ptrL=&valor1;
+	printf("%ld",*ptrL);
+	valor2=*ptrL;
+	printf("\n%ld",valor2);
+	printf("\n%ld %ld",&valor1,ptrL);
+	return 0;
+}
